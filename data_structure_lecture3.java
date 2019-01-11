@@ -1,14 +1,22 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
+    int age;
+    String name;
+    String gender;
+
     Scanner scan = new Scanner(System.in);
 
-    int pf = scan.nextInt();
+    age = scan.nextInt();
+    name = scan.next();
+    gender = scan.next();
 
-    if(pf == 123)
-      System.out.println("yes you are right");
+    if (gender.equals("male"))
+       System.out.println("you are : " + gender);
     else
-      System.out.println("idiot");
+       System.out.println("you are : " + "interesting");
+    
+    scan.close();
   }
 }
