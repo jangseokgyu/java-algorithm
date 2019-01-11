@@ -20,3 +20,22 @@ public class Main {
     scan.close();
   }
 }
+/*
+import java.util.*;
+
+public class Main {
+  public static void main(String[] args) {
+  
+    Scanner scan = new Scanner(System.in);
+    int n = scan.nextInt();
+
+    int[] ages = new int[n];
+
+    for(int i=0;i<n;i++) {
+      ages[i] = scan.nextInt();
+    }
+    for(int i=0;i<ages.length;i++)
+      System.out.println(ages[i]);
+  }
+}
+*/
